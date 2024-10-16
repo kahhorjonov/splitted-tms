@@ -1,0 +1,75 @@
+.inputFieldsBox {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.pointsBox {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shipmentBox {
+  width: 50%;
+  padding: 0.875rem;
+  background-color: #f5f7fa;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.vehicleBox {
+  width: 50%;
+  height: 28rem;
+  overflow: auto;
+  padding: 0.875rem;
+  background-color: #f5f7fa;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerBg {
+  padding: 0.875rem;
+  background-color: #f5f7fa;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+}
+
+.createRouteButtonsBox {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.buttonAddInstance,
+.buttonAddInstance:hover {
+  border: none;
+  text-transform: initial;
+  background-color: #e6f1ff;
+  padding: 5px 32px;
+}
+
+.buttonOptions,
+.buttonOptions:hover {
+  background-color: #cce3ff;
+  border: none;
+}
+
+.noRoutes {
+  background-color: #f5f7fa;
+  border-radius: 8px;
+  width: 100%;
+  height: 13.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 1rem;
+}
